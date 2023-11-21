@@ -22,6 +22,6 @@ form.addEventListener(
 
 form.addEventListener('submit', ev => {
   ev.preventDefault();
-  localStorage.removeItem(localStorage);
+  localStorage.removeItem(localStorageKey);
   form.reset();
 });
